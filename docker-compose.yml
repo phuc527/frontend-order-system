@@ -1,7 +1,7 @@
 services:
   frontend:
     build:
-      context: ./frontend-shop
+      context: ./
       dockerfile: Dockerfile
     container_name: shop_frontend
     ports:
